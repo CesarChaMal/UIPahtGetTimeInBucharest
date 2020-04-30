@@ -1,0 +1,41 @@
+{
+  "name": "UIPahtGetTimeInBucharest",
+  "description": "This workflow gets the current time in Bucharest and displays it in the Output Panel",
+  "main": "Main.xaml",
+  "dependencies": {
+    "CsvHelper": "[15.0.5]",
+    "UiPath.Excel.Activities": "[2.8.3-beta.890325]",
+    "UiPath.Mail.Activities": "[1.8.3-beta.889642]",
+    "UiPath.MicrosoftOffice365.Activities": "[1.1.3]",
+    "UiPath.System.Activities": "[20.4.0]",
+    "UiPath.UIAutomation.Activities": "[20.4.0-beta.891721]",
+    "UiPathTeam.Excel.Extensions.Activities": "[1.0.7107.42453]",
+    "UiPathTeam.ExcelSheetToImage.Activities": "[1.0.0.3]",
+    "UiPathTeam.XLExcel.Activities": "[1.0.6814.30102]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
